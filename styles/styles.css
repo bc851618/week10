@@ -25,6 +25,30 @@ nav ul li:hover {
 }
 
 
+/* CSS for contact page */
+
+form {
+    padding-left: 1em;
+    padding-right: 1rem;
+}
+
+form div span.formText {
+    display: inline-block;
+    width: 100px; 
+    padding-bottom: 10px;
+
+}
+
+form div textarea {
+    width:100%;
+    height: 5rem;
+    
+    
+    
+}
+
+/* End for CSS for contact page */
+
 .carousel {
   height: auto;
   width: auto;
