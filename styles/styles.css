@@ -1,0 +1,49 @@
+nav {
+    font-size: 16px;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 8px;
+    flex: auto;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+
+.carousel {
+  height: auto;
+  width: auto;
+  margin: auto;
+  max-width: 800px;
+
+  align-content: center;
+}
+
+/*
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+}
+
+*/
+
+@media all and (max-width: 800px){
+    nav ul {flex-direction: column;}
+    nav ul li {text-align: center;}
+}
